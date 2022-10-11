@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+}
+
+.board__piece {
+  width: 30px;
+}
+
+.board__square.light {
+  background-color: rgb(200, 200, 200);
+}
+
+.board__square.dark {
+  background-color: rgb(100, 100, 100);
+}
+
+.board__square {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  margin: 50px auto;
+  width: 480px;
+  display: flex;
+  flex-flow: wrap row;
+}
